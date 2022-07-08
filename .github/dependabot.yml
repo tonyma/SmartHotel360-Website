@@ -22,7 +22,7 @@ updates:
       interval: "weekly"
       
   # Enable version updates for c#
-  - package-ecosystem: "csharp"
+  - package-ecosystem: "NuGet"
     directory: "/"
     # Check for updates once a week
     schedule:
